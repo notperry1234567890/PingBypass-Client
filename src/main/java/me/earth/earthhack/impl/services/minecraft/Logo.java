@@ -17,7 +17,7 @@ public class Logo extends EventListener<Render2DEvent>
     @Override
     public void invoke(Render2DEvent event)
     {
-        String text = "3arthh4ck - " + Earthhack.VERSION + getPingString();
+        String text = "" + Earthhack.VERSION + getPingString();
         TextRenderer.getInstance().drawStringWithShadow(text, 2, 2, 0xffffffff);
     }
 
